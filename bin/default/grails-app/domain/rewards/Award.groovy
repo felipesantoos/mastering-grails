@@ -9,5 +9,8 @@ class Award {
     static belongsTo = [customer: Customer]
 
     static constraints = {
+        date()
+        type(inList: ['Purchase', 'Reward'])
+        points()
     }
 }

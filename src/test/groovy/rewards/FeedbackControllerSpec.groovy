@@ -1,9 +1,9 @@
 package rewards
 
-import grails.testing.gorm.DomainUnitTest
+import grails.testing.web.controllers.ControllerUnitTest
 import spock.lang.Specification
 
-class CustomerSpec extends Specification implements DomainUnitTest<Customer> {
+class FeedbackControllerSpec extends Specification implements ControllerUnitTest<FeedbackController> {
 
     def setup() {
     }
